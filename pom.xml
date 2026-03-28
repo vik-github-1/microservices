@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.eazybytes</groupId>
-    <artifactId>microservices</artifactId>
+    <artifactId>section2</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>microservices</name>
-    <description>Microservices</description>
+    <name>section2</name>
+    <description>Microservices - Section 2</description>
     <modules>
         <module>accounts</module>
         <module>cards</module>
