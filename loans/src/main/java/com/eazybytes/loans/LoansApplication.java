@@ -27,7 +27,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
                 )
 
         ),
-        externalDocs = 
+        externalDocs =
 )
 public class LoansApplication {
 
