@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local Apis"
+  contactDetails:
+    name: "Smitha Ray QA Lead"
+    email: "smitha@mygithub.com"
+  onCallSupport:
+    - (555) 265-3765
+    - (555) 734-8731

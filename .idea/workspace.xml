@@ -4,34 +4,230 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63dd968-19f4-45ba-a312-58597191d65a" name="Changes" comment="" />
+    <list default="true" id="e63dd968-19f4-45ba-a312-58597191d65a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/section4/accounts/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/accounts/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ai/mcp/mcp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/accounts-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/accounts-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/AccountsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/audit/AuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/constants/AccountsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/controller/AccountsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/dto/AccountsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/dto/CustomerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/dto/ErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/entity/Accounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/exception/CustomerAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/mapper/AccountsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/mapper/CustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/repository/AccountsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/com/eazybytes/accounts/service/impl/AccountsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/accounts/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/src/main/java/com/eazybytes/loans/LoansApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/eazybytes/loans/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/src/main/java/com/eazybytes/loans/service/impl/LoansServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/eazybytes/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/target/classes/com/eazybytes/loans/LoansApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/target/classes/com/eazybytes/loans/LoansApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/loans/target/classes/com/eazybytes/loans/exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/section2/loans/target/classes/com/eazybytes/loans/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vik-github-1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:vik-github-1/microservices.git&quot;,
+    &quot;accountId&quot;: &quot;32687d1d-b71e-43c2-b509-2ca7cc3425bd&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true"
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3Ba6uQjxj2lYBb3Po02uBXLTbQB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.accounts: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LoansApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vikaskumar/workspace/microservices/section2/loans/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section2/loans/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AccountsApplication" value="STOPPED" />
+              <entry key="LoansApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.loans.LoansApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="accounts: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="section4/accounts/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.accounts: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e63dd968-19f4-45ba-a312-58597191d65a" name="Changes" comment="" />
+      <created>1774715057418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774715057418</updated>
+      <workItem from="1774715058835" duration="16054000" />
+      <workItem from="1775303058094" duration="12000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
